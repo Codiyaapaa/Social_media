@@ -50,6 +50,7 @@ export type IUser = {
 };
 
 export type INewUser = {
+  id: string;
   name: string;
   email: string;
   username: string;
